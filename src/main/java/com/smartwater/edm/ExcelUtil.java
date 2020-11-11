@@ -29,7 +29,7 @@ public class ExcelUtil<T> {
 		List<T> list = null;
 
 		try {
-			//支持2003/2007/2010版本
+			//支持2003/2007/2010版本Test1, Test
 			workbook = WorkbookFactory.create(new FileInputStream(f));
 			
 			Sheet sheet = workbook.getSheet(sheetName);
